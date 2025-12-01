@@ -13,7 +13,17 @@ const Home: React.FC = () => {
         </div>
       </div>
     </div>
-  );
+<div className="bg-white py-20">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 className="text-4xl font-bold text-gray-900 mb-8">About Our Company</h2>
+      <p className="text-lg text-gray-700 mb-6">
+        Based in Armagh, we offer a wide range of cleaning services tailored to meet the needs of both residential and commercial clients. Our team of experts is dedicated to providing top-notch service and ensuring customer satisfaction.
+      </p>
+      <p className="text-lg text-gray-700">
+        We specialize in carpet cleaning, upholstery cleaning, and more, serving the entire Northern Ireland region with professionalism and care.
+      </p>
+    </div>
+  </div>
 };
 
 export default Home;
